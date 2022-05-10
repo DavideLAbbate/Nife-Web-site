@@ -1,0 +1,66 @@
+body{
+    line-height: 1.5;
+    font-size: 16px;
+}
+*
+{
+    margin : 0 ;
+    padding : 0;
+    text-decoration: none;
+    outline:none;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+.HomeSection{
+    background-color: yellow;
+    position: fixed;
+    display: block;
+    min-height: 100vh;
+    left: 360px;
+    top: 0;
+    right :0;
+    opacity:40%;
+    z-index:0;
+
+}
+
+.aside{
+    width: 360px;
+    left:0;
+    top:0;
+    position :fixed;
+    background-color: orange;
+    height: 100%;   
+    padding : 30px;
+    opacity: 90%;
+    justify-content: center;
+    align-items: center;
+    display :flex;
+    z-index: 10;
+    border-right: solid 2px black;
+    
+}
+.aside .nav{
+    
+    margin-left: 0;
+    position: fixed;
+    
+}
+.aside .logo {
+    display: block;
+    margin: left 0;;
+    margin-right: auto;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    position : absolute;
+    top:50px;
+    display: inline;
+    
+
+  }
