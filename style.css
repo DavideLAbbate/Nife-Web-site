@@ -1,66 +1,127 @@
-body{
-    line-height: 1.5;
-    font-size: 16px;
-}
 *
 {
     margin : 0 ;
     padding : 0;
-    text-decoration: none;
-    outline:none;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Generals */
+
+body{
+    background-color: rgb(255, 165, 0);
+    position: relative;
 }
 
 ul{
     list-style: none;
 }
-.HomeSection{
-    background-color: yellow;
-    position: fixed;
-    display: block;
-    min-height: 100vh;
-    left: 360px;
-    top: 0;
-    right :0;
-    opacity:40%;
-    z-index:0;
 
+a{
+    text-decoration: none;
+    color:#000;
 }
 
-.aside{
-    width: 360px;
-    left:0;
-    top:0;
-    position :fixed;
-    background-color: orange;
-    height: 100%;   
-    padding : 30px;
-    opacity: 90%;
+h2{
+    color:#FD811A;
+}
+
+/* navbar */
+
+.side-container{
+    height: 100vh;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;   
+    padding: 30px;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+    background-color: rgb(239, 202, 123, .80);
+    border-radius: 25px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    margin-top: 70px;
     justify-content: center;
+    padding: 40px 0 40px 0;
+    background-color: rgb(239, 202, 123, .80);
+    border-radius: 10px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    display :flex;
-    z-index: 10;
-    border-right: solid 2px black;
-    
+    gap: 50px;
 }
-.aside .nav{
-    
-    margin-left: 0;
-    position: fixed;
-    
-}
-.aside .logo {
+
+.nav-btn{
     display: block;
-    margin: left 0;;
-    margin-right: auto;
+    text-align: center;
+    height: 40px;    
+    line-height: 40px;
+    width: 200px;
 }
 
-img {
-    max-width: 70%;
-    height: auto;
-    position : absolute;
-    top:50px;
-    display: inline;
-    
 
-  }
+.nav-btn a li {
+    font-size: 20px;
+    color:#017B89 ;
+    font-weight: 600;
+}
+
+.nav-btn::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #FD811A;
+    padding-top: 25px
+}
+
+.nav-title{
+    display: block;
+    text-align: center;
+    height: 40px;    
+    line-height: 40px;
+    width: 200px;
+}
+
+.nav-title::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid #FD811A;
+    padding-bottom: 25px;    
+}
+
+.nav-btn:hover{
+    background-color:rgb(255, 255, 255, .80) ;
+    border-radius: 5px;
+}
+
+/* nav-bar end */
+
+/* Home section */
+
+
+.home-container{
+    width: 70%;
+    margin: 120px auto;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    left:25%;
+}
+
+.section1{
+    display: flex;
+        
+}
+
+
