@@ -101,7 +101,7 @@ h2{
 }
 
 .nav-btn:hover{
-    background-color:rgb(255, 255, 255, .80) ;
+    background-color:rgb(255, 255, 255, .55) ;
     border-radius: 5px;
 }
 
@@ -109,19 +109,79 @@ h2{
 
 /* Home section */
 
-
+/* section1 */
 .home-container{
     width: 70%;
     margin: 120px auto;
-    border: 1px solid black;
     display: inline-block;
     position: absolute;
     left:25%;
 }
 
 .section1{
-    display: flex;
-        
+    display: flex;    
+    flex-wrap: wrap;
+    border: 1px solid black;
+
 }
 
+.section1-item{
+    padding:20px;
+    flex-grow: 1;
+    width: 50%;
+    border: 1px solid red;
+}
 
+.section1-item:first-child{
+    flex-grow: 2;
+    border: 1px solid red;
+    width: 100%;
+}
+
+/* section2 */
+
+.section2{
+    display: flex;
+    margin-top: 70px;
+    border: 1px solid black;
+}
+
+.section2-item:first-child{
+    width: 60%;
+    border: 1px solid red;
+    padding: 0;
+}
+
+.section2-item:first-child img {
+    width: 100%;
+}
+
+.section2-item{
+    width: 40%;
+    padding: 50px;
+}
+
+/* section 3 */
+
+.s3-container{
+    margin-top: 70px;
+    display: flex;
+}
+
+.section3-item{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: calc(100%/3);
+}
+
+.section3-item img {
+    width: 100%;
+}
+
+.section3-item h3{
+    margin:100px auto;
+    align-self: flex-start;
+    justify-content: center;
+}
