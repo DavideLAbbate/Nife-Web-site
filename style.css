@@ -132,7 +132,7 @@ h2{
 .section1-item{
     padding:20px;
     width: 100%;
-    border: 1px solid #FFFF9D;
+    /* border: 1px solid #FFFF9D; */
     border-radius: 15px;
     margin-top: 15px;
     background-color: rgb(239, 22, 21, .80);
