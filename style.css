@@ -138,11 +138,12 @@ p{
     width: 100%;
     border-radius: 15px;
     margin-top: 15px;
-    background-color: #F63F03;
+    background-color: #F67800;
 }
 
 .section1-item p{
-    color: #FFED7D;
+    /* color: #FFED7D; */
+    color: #fff;
     font-size: 22px;
     font-weight: 500;
 }
@@ -240,3 +241,9 @@ p{
 /* home section end */
 
 /* chi siamo start */
+
+
+/* Progetti start */
+
+
+

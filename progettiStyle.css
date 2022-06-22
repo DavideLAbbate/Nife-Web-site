@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Generals */
+
+body{
+    background-color: rgb(255, 165, 0);
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+h2{
+    color:#FD811A;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+p{
+    color:#006075;
+}
+
+/* Progetti */
+
+.progettiContainer{
+    width: 80%;
+    margin:80px auto;
+    height: 1100px;
+    border: 1px solid red;
+}
+
+.dialogContainer{
+    width: 60%;
+    margin: 40px auto;
+    background-color: coral;
+    height: 400px;
+    display: none;
+}
+
